@@ -42,6 +42,6 @@ The test script is written in Java and executed using ChromeDriver.
 Jenkins Integration
 
 Jenkins is used to automate the execution of Selenium test cases.
-A Freestyle Job was created and configured with a build step using Windows batch commands to compile and run the Selenium script. cd C:\Users\MANASVI\Desktop\Devops Lab javac -cp ".;lib*" com\selenium\test\TestPro.java java -cp ".;lib*" com.selenium.test.TestPro
+A Freestyle Job was created and configured with a build step using Windows batch commands to compile and run the Selenium script. cd C:\Users\Desktop\Devops Lab javac -cp ".;lib*" com\selenium\test\TestPro.java java -cp ".;lib*" com.selenium.test.TestPro
 
 The job was executed using Build Now, and the console output showed TEST PASSED with build status SUCCESS.
